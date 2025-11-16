@@ -12,7 +12,7 @@ You must have **Python 3.x** installed on your system. It is highly recommended 
 
 Install dependencies:  
    The project relies on several external Python libraries for complex cryptographic primitives and strength checking.  
-   pip install cryptography zxcvbn bcrypt
+   pip install cryptography zxcvbn bcrypt pytest
 
    *(Note: hashlib and getpass are typically included in the standard Python library.)*
 
@@ -22,3 +22,4 @@ Install dependencies:
 * **cryptography**: The primary library for implementing AES and RSA encryption.  
 * **zxcvbn**: Used in the password manager for accurate, robust password strength estimation.  
 * **bcrypt**: Used for secure password hashing and verification in the password manager.
+* **pytest**: Used for unit testing the core cryptographic functions (hashing, encryption, password management), ensuring they are correct and reliable.
